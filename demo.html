@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Responsive Typography Demo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body { font-size: 100%; }
+span { color: red; }
+.byline { font-style: italic; }
+section { border: 1px solid #666; padding: 1em;  }
+
+
+/* start with a base font size of 1 em, and a line height slightly less than your target of 1.4 */
+p { font-size: 1em; line-height: 1.3; margin: 1.3 auto; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em;}
+
+/* make sure to leave some margin on the left and right */
+article { width: 96%; margin: 0 auto;  }
+section { margin: 0 auto; }
+
+@media only screen and (min-width: 30em) {
+  article, section { width: 80%; }
+}
+@media only screen and (min-width: 38em) {
+  article p { font-size: 1.2em; line-height: 1.4em; }
+}
+@media only screen and (min-width: 48em) {
+	article { width: 65%; margin-left: 1em; float: left; }
+	section { width: 24%; float: right; margin-top: 1em; margin-right: 1em;  }
+}
+@media only screen and (min-width: 56em) {
+	article { margin-left: 2em; width: 63%; }
+	section { font-size: 1.1em; width: 24%;   }
+	article p { font-size: 1.4em; line-height: 1.5;}
+}
+@media only screen and (min-width: 56em) {
+	body { max-width: 65em; margin: 0 auto; }
+}
+
+</style>
+</head>
+
+<body>
+
+<article>
+
+<h1>Red Fox</h1>
+
+<p class="byline">by Charles G. D. Roberts, 1905</p>
+
+<p>Two voices, a mellow, bell-like baying and an<span> excited yelping, came in chor</span>us upon the air of the April dawn. The musical and irregularly blended cadence, now swelling, now diminishing, seemed a fit accompaniment to the tender, thin-washed colouring of the landscape which lay spread out under the gray and lilac lights of approaching sunrise. The level country, of mixed woodland and backwoods farm, still showed a few white patches here and there where the snow lingered in the deep hollows; but all over the long, wide southward-facing slope of the uplands, with their rough woods broken by occasional half-cleared, hillocky pastures, the spring was more advanced. Faint green films were beginning to show on the birch and poplar thickets, and over the pasture hillocks; and every maple hung forth a rosy veil that seemed to imitate the flush of morning.</p>
+
+<p>The music of the dogs’ voices, melodious though it was, held something sinister in its sweetness,—a sort of menacing and implacable joy. As the first notes of it came floating up from the misty lowlands, an old red fox started up from his sleep under a squat juniper-bush on the top of a sunny bank. Wide-awake on the instant, he stood listening critically to the sound. Then he came a few paces down the bank, which was open, dotted with two or three bushes and boulders, and its turf already green through the warmth of its sandy soil. He paused beside the mouth of a burrow which was partly screened by the evergreen branches of a juniper. The next moment another and somewhat smaller fox appeared, emerging briskly from the burrow, and stood beside him, intently listening.</p>
+
+<p>The thrilling clamour grew louder, grew nearer, muffled now and then for a few moments as the trail which the dogs were following led through some dense thicket of spruce or fir. Soon an uneasy look came over the shrewd, grayish-yellow face of the old fox, as he realized that the trail in question was the one which he had himself made but two hours earlier, on his return from a survey of a neighbouring farmer’s hen-roost. He had taken many precautions with that homeward trail, tangling and breaking it several times; but he knew that ultimately, for all its deviations and subtleties, it might lead the dogs to this little warm den on the hillside, wherein his mate had but yesterday given birth to five blind, helpless, whimpering puppies. As the slim red mother realized the same fact, her fangs bared themselves in a silent snarl, and, backing up against the mouth of the burrow, she stood there an image of savage resolution, a dangerous adversary for any beast less powerful than bear or panther.</p>
+
+<p><a href="https://www.gutenberg.org/ebooks/46005">Continue reading...</a></p>
+
+</article>
+
+<section>
+
+<h2>More About Foxes</h2>
+
+<p>The red fox (Vulpes vulpes) is the largest of the true foxes and the most abundant member of the Carnivora, being present across the entire Northern Hemisphere from the Arctic Circle to North Africa, Central America and Asia. It is listed as Least Concern by the IUCN. Its range has increased alongside human expansion, having been introduced to Australia, where it is considered harmful to native mammals and bird populations. Due to its presence in Australia, it is included among the list of the "world's 100 worst invasive species".</p>
+
+<p>From <a href="http://en.wikipedia.org/wiki/Red_fox">Wikipedia</a> via Creative Commons Attribution-ShareAlike.</p>
+
+</section>
+
+</body></html>
